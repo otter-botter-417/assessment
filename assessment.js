@@ -10,6 +10,7 @@ assessmentButton.onclick = () => {
     }
 
     //修正
+    resultDivided.innerText = '';
 
     //headerdividedの作成
     const headerDivided = document.createElement('div');
@@ -34,7 +35,7 @@ assessmentButton.onclick = () => {
     resultDivided.appendChild(headerDivided);
     resultDivided.appendChild(bodyDivided);
 
-    
+
 
     //　表示を消す
     tweetDivided.innerText = '';
